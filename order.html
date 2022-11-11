@@ -35,24 +35,37 @@ and your choice of a hand-picked, premium melon.</p>
         </tr>
 </table>
 
-<Order Form
+<h2>Order Form</h2>
+<form>
+    <label for="yourname">Your Name</label>
+    <input type ="text" name="yourname"/><br>
+    <label for="recipient">Who are we sending this to?</label>
+    <input type ="text" name="recipient"/><br>
+    <label for="melon">Choose a melon:</label>
+    <select name="melon">
+        <option value="watermelon">Watermelon</option>
+        <option value="canteloupe">Canteloupe</option>
+        <option value="honeydew">Honeydew</option>
+    </select>
+<br>
+    <span>When should we deliver?</span>
+    <input type="radio" name="time" value="am">
+    <label for="time">Morning</label>
+    <input type="radio" name="time" value="pm">
+    <label for="time">Evening</label>
+    <input type="radio" name="time" value="any">
+    <label for="time">Any time</label>
+    <br>
+    <br>
+    <br>
+    <label for="message">Enter your message:</label><br>
+    <br>
+    <br>
+    <textarea name="message"></textarea><br>
+    <label for="subscribe">Subscribe to our newsletter</label>
+    <input type="checkbox" name="subscribe" value="yes"><br>
+    <button type="button">Submit</button>
 
-Your name
+</form>
 
-Who are we sending this to?
-
-Choose a melon
-Watermelon
-Canteloupe
-Honeydew
-
-When should we deliver?
-Morning
-Evening
-Any time
-
-Enter your message:
-
-Subscribe to our newsletter
-Yes
 </body>
